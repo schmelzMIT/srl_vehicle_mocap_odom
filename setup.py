@@ -23,6 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
             'vehicle_mocap_odom_node = vehicle_mocap_odom.vehicle_mocap_odom:main',
+            'rc_direct_control_node = vehicle_mocap_odom.rc_direct_control:main',
         ],
     },
 )
