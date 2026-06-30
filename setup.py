@@ -24,6 +24,8 @@ setup(
         'console_scripts': [
             'vehicle_mocap_odom_node = vehicle_mocap_odom.vehicle_mocap_odom:main',
             'rc_direct_control_node = vehicle_mocap_odom.rc_direct_control:main',
+            'autonomous_control_node = vehicle_mocap_odom.autonomous_control:main',
+            'open_loop_sequence_node = vehicle_mocap_odom.open_loop_sequence:main',
         ],
     },
 )
